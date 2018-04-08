@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 80px;
+  color: #6b0644;
+}
+
+p {
+  font-family: 'Arial', sans-serif;
+}
+
+button {
+  border: 2px solid #6b0644;
+  color: #6b0644;
+}
+
+input {
+  border: 2px solid #6b0644;
+  color: #6b0644;
+}
