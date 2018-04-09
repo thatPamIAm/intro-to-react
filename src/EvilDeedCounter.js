@@ -9,7 +9,7 @@ export default class EvilDeedCounter extends Component {
     // this.updateCount = this.updateCount.bind(this);
   }
 
-  updateCount() {
+  updateCount = () => {
     let newCount = this.state.count + 1;
     this.setState({ count: newCount });
   }
@@ -19,7 +19,7 @@ export default class EvilDeedCounter extends Component {
       <div>
         <h3>Evil Deeds Committed Today</h3>
         <h2>{this.state.count}</h2>
-        <button onClick={() => this.updateCount()}>+1</button>
+        <button onClick={this.updateCount}>+1</button>
       </div>
     )
   }
